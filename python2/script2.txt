@@ -1,0 +1,6 @@
+#!usr/val/bin python3
+val = 15
+if val > 0:
+	print('positive')
+elif val < 0:
+	print('negative')

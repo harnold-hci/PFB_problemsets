@@ -3,7 +3,7 @@ import sys
 
 val = int(sys.argv[1])
 if val > 0:
-	print('positive')
+	print('positiiveo')
 	if val < 50:
 		if (val % 2) == 0:
 			print('it is an even number that is smaller than 50')

@@ -28,7 +28,7 @@ with open(read_file) as f, open(write_file, 'w') as w:
             gene_list.append(gene_name)
             seqs[gene_name] = {}
             temp_seq = ''
-        # if sequence: assign sequence to it's gene header
+        # if sequence: assign sequence to its gene header
         else:
             # concat lines until i hit another header
             temp_seq = temp_seq + line
